@@ -1,0 +1,7 @@
+URL: URL: https://github.com/leamariani/DI-Bootcamp/blob/main/WEEK1/day4/ExerciceXP/exercice_week2_day4.ipynb
+suggestions for improvement:
+- In Exercise 3, the comments in `PetDog`'s methods (`train`, `play`, `do_a_trick`) should be replaced with actual implementations.  The code provided only has placeholders. 
+- Exercise 3 could benefit from more robust error handling.  For instance, the `play` method doesn't handle the case where no dogs are provided. Consider adding a check and an appropriate message. 
+- In Exercise 4,  the `check_majority` method could be improved by using a more concise search method (like list comprehension or `next()` with a default value) to find the person instead of iterating through the entire list. This enhances readability and potentially performance.
+Correctness: 100%
+-----
