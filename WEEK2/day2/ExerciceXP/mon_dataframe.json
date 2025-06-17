@@ -1,0 +1,17 @@
+[
+    {
+        "Nom":"Clara",
+        "\u00c2ge":30,
+        "Ville":"Vanves"
+    },
+    {
+        "Nom":"Karim",
+        "\u00c2ge":45,
+        "Ville":"Chatou"
+    },
+    {
+        "Nom":"Bobby",
+        "\u00c2ge":15,
+        "Ville":"Marseille"
+    }
+]
