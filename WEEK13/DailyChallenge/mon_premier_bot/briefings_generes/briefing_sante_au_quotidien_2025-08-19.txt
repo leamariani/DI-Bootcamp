@@ -1,0 +1,9 @@
+Briefing Généré (LLM Simulé) sur : santé au quotidien
+
+Points Clés (Générés) :
+- Boire de l'eau est essentiel pour notre corps. [Source 1]
+- Un sommeil de qualité est crucial pour la récupération physique et mentale. [Source 2]
+
+Sources Utilisées :
+[Source 1] Les secrets d'une bonne hydratation - http://fauxsite.com/hydratation
+[Source 2] L'importance du sommeil pour l'énergie - http://fauxsite.com/sommeil
