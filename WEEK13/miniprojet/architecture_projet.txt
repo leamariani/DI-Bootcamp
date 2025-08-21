@@ -1,0 +1,18 @@
+mini-mcp-research-notebook/
+├── app/                 # Application principale
+│   ├── app.py          # Interface Streamlit
+│   ├── orchestrator.py # Orchestration des outils MCP
+│   ├── llm_client.py   # Client pour Groq/Ollama
+│   ├── log_utils.py    # Journalisation et observabilité
+│   └── config.py       # Configuration
+├── servers/            # Serveurs MCP
+│   └── citation_cleaner_server.py # Notre serveur personnalisé
+├── config/             # Fichiers de configuration
+│   └── mcp_servers.json # Déclaration des serveurs
+├── data/               # Données et cache
+│   └── arxiv/
+├── workspace/          # Espace de travail accessible via MCP
+├── .env.example        Variables d'environnement
+├── pyproject.toml      Dépendances Python
+├── compose.yaml        Docker Compose (optionnel)
+└── README.md           Documentation

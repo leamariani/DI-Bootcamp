@@ -1,0 +1,24 @@
+{
+  "servers": [
+    {
+      "name": "arxiv",
+      "command": "npx",
+      "args": ["@modelcontextprotocol/server-arxiv-search"],
+      "env": {}
+    },
+    {
+      "name": "filesystem",
+      "command": "npx",
+      "args": ["@modelcontextprotocol/server-filesystem", "./workspace"],
+      "env": {}
+    },
+    {
+      "name": "citation_cleaner",
+      "command": "python",
+      "args": ["servers/citation_cleaner_server.py"],
+      "env": {
+        "PYTHONPATH": "."
+      }
+    }
+  ]
+}
