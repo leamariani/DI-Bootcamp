@@ -1,0 +1,16 @@
+streamlit
+langchain
+langgraph
+langchain-core
+langchain-community
+langchainhub
+ipykernel
+langchain_groq
+beautifulsoup4
+tiktoken
+chromadb
+langchain_google_genai
+python-dotenv
+ipywidgets
+nbformat
+nbconvert
