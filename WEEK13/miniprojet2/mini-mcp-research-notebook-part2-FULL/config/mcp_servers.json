@@ -1,0 +1,37 @@
+{
+  "arxiv": {
+    "command": "uv",
+    "args": [
+      "tool",
+      "run",
+      "arxiv-mcp-server",
+      "--storage-path",
+      "${ARXIV_STORAGE}"
+    ]
+  },
+  "fs": {
+    "command": "docker",
+    "args": [
+      "run",
+      "-i",
+      "--rm",
+      "--volume=${WORKSPACE_DIR}:/workspace",
+      "ghcr.io/mark3labs/mcp-filesystem-server:latest",
+      "/workspace"
+    ]
+  },
+  "cite": {
+    "command": "uv",
+    "args": [
+      "run",
+      "servers/citation_cleaner_server.py"
+    ]
+  },
+  "scholarplus": {
+    "command": "uv",
+    "args": [
+      "run",
+      "servers/scholar_plus_server.py"
+    ]
+  }
+}

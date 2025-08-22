@@ -1,0 +1,8 @@
+mcp
+python-dotenv
+httpx
+pydantic
+streamlit
+groq
+ollama
+tenacity
